@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Search — Discover Your Next Book</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"><span>B</span> Book Search</div>
+
+      <nav>
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Cards">Discover</a></li>
+          <li><a href="#Footer">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <!-- Start_Home_Section -->
+
+    <section id="Home">
+      <div class="content">
+        <p>Discover your next book</p>
+        <h1>Stories <br /><em>worth</em><br />finding.</h1>
+        <p>
+          Explore timeless classics, hidden gems, and modern masterpieces.
+          Search a world of books and find something worth remembering.
+        </p>
+        <div class="search-box">
+          <span class="search-icon" aria-hidden="true"> ⌕ </span>
+
+          <label class="visually-hidden" for="book-search">
+            Search for a book
+          </label>
+
+          <input
+            id="book-search"
+            class="search-input"
+            type="search"
+            placeholder="Search by title"
+          />
+
+          <button class="search-button" type="submit">Search</button>
+        </div>
+      </div>
+
+      <!-- Two_Contents -->
+
+      <div class="hero-books" aria-hidden="true">
+        <div class="hero-book">
+          <img
+            src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&amp;fit=crop&amp;w=700&amp;q=85"
+            alt=""
+          />
+        </div>
+
+        <div class="hero-book">
+          <img
+            src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&amp;fit=crop&amp;w=700&amp;q=85"
+            alt=""
+          />
+        </div>
+
+        <div class="hero-book">
+          <img
+            src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&amp;fit=crop&amp;w=700&amp;q=85"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- End_Home_Section -->
+
+    <hr />
+    <!-- Start_Cards_Section -->
+    <section id="Cards">
+      <div class="content">
+        <p>Curated collection</p>
+        <h1 style="font-size: 3em">Books to <br />get lost in.</h1>
+        <p>
+          A carefully selected shelf of stories, ideas, and voices from
+          different corners of literature.
+        </p>
+      </div>
+
+      <div id="Cards_Grid"></div>
+    </section>
+    <!-- End_Cards_Section -->
+
+    <!-- Start_Footer -->
+    <footer id="Footer" class="footer">
+      <div class="footer-content">
+        <!-- Brand -->
+        <div class="brand">
+          <div class="brand-title">
+            <span class="logoFooter">B</span>
+            <h2>BOOK SEARCH</h2>
+          </div>
+
+          <p>
+            A quiet place for curious minds. Discover books, collect stories,<br />
+            and find your next favorite read.
+          </p>
+        </div>
+
+        <!-- Explore -->
+        <div class="explore">
+          <h3>EXPLORE</h3>
+
+          <a href="#Home">Home</a>
+          <a href="#Cards">Discover</a>
+        </div>
+      </div>
+
+      <!-- Bottom -->
+      <div class="footer-bottom">
+        <span>© 2026 Book Search</span>
+        <span
+          >Designed By
+          <span style="font-size: larger; color: rgb(9, 175, 59)"
+            >Muhammad Ahmad</span
+          ></span
+        >
+      </div>
+    </footer>
+
+    <!-- End_Footer -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
